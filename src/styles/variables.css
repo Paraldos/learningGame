@@ -1,0 +1,16 @@
+:root {
+  /*
+	  RUST GOLD 8 PALETTE by Trigo Mathmancer
+	  https://lospec.com/palette-list/rust-gold-8
+	  */
+  --color-text: #f6cd26;
+  --color-accent: #ac6b26;
+  --color-bacbkground__light: #393939;
+  --color-bacbkground__dark: #202020;
+
+  --scroll_width: 20px;
+
+  --nav_height_big: 4rem;
+  --nav_height_small: 3rem;
+  --nav_border: 0.2rem;
+}
