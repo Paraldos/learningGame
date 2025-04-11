@@ -5,12 +5,14 @@
 	  */
   --color-text: #ffe082;
   --color-accent: #ffd54f;
-  --color-bacbkground__light: #283593;
+  --color-bacbkground__light: #303f9f;
   --color-bacbkground__dark: #1a237e;
+  --color-btn: #03a9f4;
+  --color-btn__accent: #4fc3f7;
 
   --scroll_width: 20px;
 
-  --nav_height_desktop: 80px;
-  --nav_height_mobile: 50px;
+  --nav-height__desktop: 80px;
+  --nav-height__mobile: 50px;
   --nav_border: 0.2rem;
 }

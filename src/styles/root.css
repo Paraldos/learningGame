@@ -17,7 +17,12 @@
 
 body {
   height: 100%;
-  background-color: var(--color-bacbkground__dark);
+  background-color: var(--color-bacbkground__light);
+  padding: var(--nav-height__mobile) 0;
+
+  @media screen and (min-width: 768px) {
+    padding: var(--nav-height__desktop) 0;
+  }
 }
 
 html {

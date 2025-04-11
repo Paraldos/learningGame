@@ -1,9 +1,15 @@
 nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
   width: 100%;
-  background-color: var(--color-bacbkground__light);
-  height: var(--nav_height_mobile);
+  height: var(--nav-height__mobile);
+
+  background-color: var(--color-bacbkground__dark);
 
   @media screen and (min-width: 768px) {
-    height: var(--nav_height_desktop);
+    height: var(--nav-height__desktop);
+    top: 0;
   }
 }

@@ -1,11 +1,13 @@
-import Nav from "./components/Nav/Nav";
-import Footer from "./components/Footer/Footer";
+import Nav from "./components/nav/Nav";
+import Btn from "./components/btn/Btn";
 
 function App() {
   return (
     <>
       <Nav />
-      <Footer />
+      <main>
+        <Btn />
+      </main>
     </>
   );
 }
