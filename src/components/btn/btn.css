@@ -1,8 +1,10 @@
 .btn {
+  --border-radius: 8px;
+
   appearance: button;
   background-color: var(--color-btn__accent);
   border: solid transparent;
-  border-radius: 16px;
+  border-radius: var(--border-radius);
   border-width: 0 0 4px;
   box-sizing: border-box;
   color: var(--color-text);
@@ -26,14 +28,13 @@
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 100%;
 }
 
 .btn:after {
   background-clip: padding-box;
   background-color: var(--color-btn);
   border: solid transparent;
-  border-radius: 16px;
+  border-radius: var(--border-radius);
   border-width: 0 0 4px;
   bottom: -4px;
   content: "";

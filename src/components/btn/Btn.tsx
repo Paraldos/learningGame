@@ -1,9 +1,9 @@
 import "./btn.css";
 
-function Btn() {
+function Btn({ text = "Click Me" }) {
   return (
     <button className="btn" role="button">
-      Click Me
+      {text}
     </button>
   );
 }
